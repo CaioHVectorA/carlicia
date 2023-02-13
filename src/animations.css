@@ -1,0 +1,18 @@
+@keyframes slideRight {
+    from {
+        width: 0px;
+    }
+
+    to {
+        width: calc(100vw - 48px);
+    }
+    
+}
+
+.slideRight {
+    animation: slideRight 300ms ease-in-out forwards;
+}
+
+.slideRight * {
+    white-space: nowrap;
+}

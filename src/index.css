@@ -16,3 +16,7 @@ code {
 li {
   list-style: none;
 }
+
+* {
+  transition: 500ms;
+}
